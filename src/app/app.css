@@ -1,0 +1,11 @@
+:root {
+  --bg-color: #050505;
+  --text-white: #ffffff;
+  --accent-gradient: linear-gradient(90deg, #ff4b5c 0%, #f62e8e 100%);
+  --font-main: 'Inter', sans-serif;
+}
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  font-family: var(--font-main);
+}

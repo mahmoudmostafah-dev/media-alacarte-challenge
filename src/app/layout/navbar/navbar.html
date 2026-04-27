@@ -1,0 +1,48 @@
+<nav
+  class="flex items-center justify-between px-10 py-6 bg-[#050505] font-sans text-white border-b border-gray-900"
+>
+  <a routerLink="/" class="flex items-center gap-3 cursor-pointer group">
+    <div class="relative w-8 h-8">
+      <svg
+        class="text-pink-500"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path
+          d="M12 18c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM12 10c-3.3 0-6 2.7-6 6M12 6c-5.5 0-10 4.5-10 10"
+          stroke-linecap="round"
+        />
+      </svg>
+    </div>
+
+    <div
+      class="text-[13px] font-semibold leading-tight tracking-tight uppercase bg-linear-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent"
+    >
+      media<br />alacarte
+    </div>
+  </a>
+  <ul class="flex items-center gap-8 text-[14px] font-medium text-gray-300">
+    <li *ngFor="let link of navLinks" class="relative">
+      <a
+        [routerLink]="link.path"
+        routerLinkActive="active-link"
+        [routerLinkActiveOptions]="{ exact: link.exact || false }"
+        class="transition-colors hover:text-white"
+      >
+        {{ link.label }}
+      </a>
+
+      <!-- underline dynamic -->
+      <div
+        class="absolute -bottom-2 left-0 h-[2px] bg-linear-to-r from-pink-500 to-red-500 transition-all duration-300"
+        [ngClass]="{
+          'w-6 opacity-100': activeRoute === link.path,
+          'w-0 opacity-0': activeRoute !== link.path,
+        }"
+      ></div>
+    </li>
+  </ul>
+  <app-button [title]="'Login'" />
+</nav>
