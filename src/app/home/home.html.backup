@@ -4,21 +4,17 @@
   ></div>
 
   <div class="container mx-auto px-6 relative z-10 text-center">
-    <p class="hero-badge text-[10px] uppercase tracking-[0.3em] text-gray-500 mb-6 font-bold">
+    <p class="text-[10px] uppercase tracking-[0.3em] text-gray-500 mb-6 font-bold">
       #1 Media Marketplace for Advertisers & Agencies
     </p>
 
-    <div class="hero-title">
-      <h2 class="text-3xl md:text-4xl font-semibold text-[#f62e8e] mb-2">Bigger Impact</h2>
-      <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-tight">Stronger Campaigns</h1>
-    </div>
-    <h3 class="hero-subtitle text-2xl md:text-3xl text-gray-400 font-medium mb-12">
-      Smarter Media Buying
-    </h3>
+    <h2 class="text-3xl md:text-4xl font-semibold text-[#f62e8e] mb-2">Bigger Impact</h2>
+    <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-tight">Stronger Campaigns</h1>
+    <h3 class="text-2xl md:text-3xl text-gray-400 font-medium mb-12">Smarter Media Buying</h3>
 
-    <div class="hero-image-container relative max-w-5xl mx-auto mt-20">
+    <div class="relative max-w-5xl mx-auto mt-20">
       <button
-        class="start-journey-btn absolute -top-12 left-4 md:left-10 z-20 px-10 py-5 rounded-3xl font-bold text-white bg-gradient-to-br from-[#9b224e] to-[#f62e8e] shadow-2xl hover:scale-105 transition-transform duration-300"
+        class="absolute -top-12 left-4 md:left-10 z-20 px-10 py-5 rounded-3xl font-bold text-white bg-gradient-to-br from-[#9b224e] to-[#f62e8e] shadow-2xl hover:scale-105 transition-transform duration-300"
       >
         Start your journey!
       </button>
@@ -48,7 +44,7 @@
 
 <section class="bg-[#050505] text-white">
   <div class="container mx-auto px-6">
-    <div class="services-header flex flex-col items-center mb-16 text-center">
+    <div class="flex flex-col items-center mb-16 text-center">
       <div
         class="w-12 h-12 bg-gradient-to-br from-[#ff4d6d] to-[#f72585] rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-pink-500/20"
       >
@@ -65,11 +61,9 @@
       <h2 class="text-4xl md:text-5xl font-bold tracking-tight">Our Services</h2>
     </div>
 
-    <div
-      class="service-cards-container flex flex-col md:flex-row gap-4 h-[600px] max-w-6xl mx-auto"
-    >
+    <div class="flex flex-col md:flex-row gap-4 h-[600px] max-w-6xl mx-auto">
       <div
-        class="service-card relative flex-[3] group overflow-hidden rounded-[40px] transition-all duration-500 hover:flex-[4]"
+        class="relative flex-[3] group overflow-hidden rounded-[40px] transition-all duration-500 hover:flex-[4]"
       >
         <img
           src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800"
@@ -145,7 +139,7 @@
 
 <section class="bg-[#050505] py-24 text-white">
   <div class="container mx-auto px-6">
-    <div class="solutions-header text-center mb-16">
+    <div class="text-center mb-16">
       <p class="text-[10px] uppercase tracking-widest text-gray-500 mb-4 font-bold">
         WHY MEDIA ALA CARTE?
       </p>
@@ -155,10 +149,8 @@
       <h2 class="text-4xl md:text-5xl font-bold mt-2">Smarter Media Buying</h2>
     </div>
 
-    <div class="solution-cards grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-      <div
-        class="solution-card md:col-span-2 relative h-[350px] rounded-[35px] overflow-hidden group"
-      >
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="md:col-span-2 relative h-[350px] rounded-[35px] overflow-hidden group">
         <img
           src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000"
           class="absolute inset-0 w-full h-full object-cover"
@@ -306,12 +298,12 @@
 
   <div class="container mx-auto px-6 relative z-10 text-center">
     <div
-      class="stats-badge inline-block px-4 py-1 rounded-full border border-gray-700 bg-black/50 text-[10px] uppercase tracking-widest text-gray-400 mb-8"
+      class="inline-block px-4 py-1 rounded-full border border-gray-700 bg-black/50 text-[10px] uppercase tracking-widest text-gray-400 mb-8"
     >
       Powering Collaboration Across Media
     </div>
 
-    <h2 class="stats-title text-4xl md:text-6xl font-bold mb-6">Collaborate. Elevate. Succeed</h2>
+    <h2 class="text-4xl md:text-6xl font-bold mb-6">Collaborate. Elevate. Succeed</h2>
     <p class="text-gray-400 max-w-xl mx-auto mb-10 text-sm leading-relaxed">
       Empower advertisers, agencies, and media owners to work seamlessly.
     </p>
@@ -323,10 +315,10 @@
     </button>
 
     <div
-      class="stats-card max-w-5xl mx-auto bg-gradient-to-r from-[#ff4d6d] to-[#f72585] rounded-[30px] p-10 md:p-16 shadow-2xl shadow-pink-500/10"
+      class="max-w-5xl mx-auto bg-gradient-to-r from-[#ff4d6d] to-[#f72585] rounded-[30px] p-10 md:p-16 shadow-2xl shadow-pink-500/10"
     >
       <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-white items-center">
-        <div class="stat-item flex flex-col items-center">
+        <div class="flex flex-col items-center">
           <span class="text-5xl md:text-6xl font-bold mb-2">110+</span>
           <p class="text-xs uppercase font-bold tracking-tighter opacity-90">
             Top Agencies Trust Media LaCarte
@@ -334,7 +326,7 @@
         </div>
 
         <div
-          class="stat-item flex flex-col items-center border-y md:border-y-0 md:border-x border-white/20 py-8 md:py-0"
+          class="flex flex-col items-center border-y md:border-y-0 md:border-x border-white/20 py-8 md:py-0"
         >
           <span class="text-5xl md:text-6xl font-bold mb-2">1M</span>
           <p class="text-xs uppercase font-bold tracking-tighter opacity-90">
@@ -342,7 +334,7 @@
           </p>
         </div>
 
-        <div class="stat-item flex flex-col items-center">
+        <div class="flex flex-col items-center">
           <span class="text-5xl md:text-6xl font-bold mb-2">98.99%</span>
           <p class="text-xs uppercase font-bold tracking-tighter opacity-90">
             Seamless Media Transactions for Owners
@@ -351,26 +343,26 @@
       </div>
     </div>
 
-    <div class="stats-section relative h-64 mt-10 hidden md:block">
+    <div class="relative h-64 mt-10 hidden md:block">
       <img
         src="https://i.pravatar.cc/100?u=1"
-        class="avatar-float absolute left-[20%] top-0 w-12 h-12 rounded-full border-2 border-gray-800 object-cover"
+        class="absolute left-[20%] top-0 w-12 h-12 rounded-full border-2 border-gray-800 object-cover"
       />
       <img
         src="https://i.pravatar.cc/100?u=2"
-        class="avatar-float absolute left-[35%] top-10 w-10 h-10 rounded-full border-2 border-gray-800 object-cover"
+        class="absolute left-[35%] top-10 w-10 h-10 rounded-full border-2 border-gray-800 object-cover"
       />
       <img
         src="https://i.pravatar.cc/100?u=3"
-        class="avatar-float absolute left-[50%] top-20 w-14 h-14 rounded-full border-2 border-gray-800 object-cover"
+        class="absolute left-[50%] top-20 w-14 h-14 rounded-full border-2 border-gray-800 object-cover"
       />
       <img
         src="https://i.pravatar.cc/100?u=4"
-        class="avatar-float absolute right-[35%] top-10 w-10 h-10 rounded-full border-2 border-gray-800 object-cover"
+        class="absolute right-[35%] top-10 w-10 h-10 rounded-full border-2 border-gray-800 object-cover"
       />
       <img
         src="https://i.pravatar.cc/100?u=5"
-        class="avatar-float absolute right-[20%] top-0 w-12 h-12 rounded-full border-2 border-gray-800 object-cover"
+        class="absolute right-[20%] top-0 w-12 h-12 rounded-full border-2 border-gray-800 object-cover"
       />
 
       <div class="absolute left-[45%] bottom-10 w-2 h-2 bg-white rounded-full"></div>
@@ -381,7 +373,7 @@
 <section class="bg-[#050505] py-20 px-6">
   <div class="container mx-auto max-w-6xl">
     <div
-      class="cta-section relative bg-[#111111] rounded-[40px] p-12 md:p-20 overflow-hidden border border-gray-800/50 shadow-2xl"
+      class="relative bg-[#111111] rounded-[40px] p-12 md:p-20 overflow-hidden border border-gray-800/50 shadow-2xl"
     >
       <div
         class="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_50%,_rgba(246,46,142,0.05)_0%,_transparent_50%)] pointer-events-none"
